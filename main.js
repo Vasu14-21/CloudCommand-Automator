@@ -8,7 +8,7 @@ const { getDatabase, ref, onValue, set } = require("firebase/database");
 
 //  Your Firebase Config
 const firebaseConfig = {
-  apiKey: "AIzaSyAJMxUnRguu2ChNsXxMpbfZMfT9tBqj3RQ",
+  apiKey: "",
   authDomain: "projectmanagement-cb6cb.firebaseapp.com",
   databaseURL: "https://projectmanagement-cb6cb-default-rtdb.firebaseio.com",
   projectId: "projectmanagement-cb6cb",
@@ -138,3 +138,4 @@ app.whenReady().then(() => {
 app.on("window-all-closed", () => {
   if (process.platform !== "darwin") app.quit();
 });
+
